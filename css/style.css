@@ -1,3 +1,6 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
 .container {
     padding-bottom: 80px;
 }
@@ -36,4 +39,26 @@
 }
 .catagories {
     color: white;
+}
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+.see-more {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: orange;
+}
+#subscribe {
+    height: 300px;
+}
+
+footer p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.fa {
+    border: none;
 }
